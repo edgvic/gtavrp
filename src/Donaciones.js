@@ -29,6 +29,8 @@ const Donaciones = () => {
               </div>
              
               <div class="ecom bg-green">
+                <p>- 25k IC <br/>
+                  - Un coche del concesionario</p>
                 <a class="btn" href="#">Donar</a>
               </div>
             </div>
@@ -45,6 +47,7 @@ const Donaciones = () => {
                 <span class="price green">15€</span>
               </div>
               <div class="ecom bg-green">
+                <p>- 50k IC <br/>- Un coche de donador <br/>- 1 deagle</p>
               <a class="btn" href="#">Donar</a>
               </div>
             </div>
@@ -57,6 +60,7 @@ const Donaciones = () => {
                 <span class="price green">20€</span>
               </div>
               <div class="ecom bg-green">
+                <p>- 75k IC<br/> - Un coche de donador <br/>- Un tuneo para coche gratis<br/> - 1 smg</p>
                 <a class="btn" href="#">Donar</a>
               </div>
             </div>
@@ -69,6 +73,7 @@ const Donaciones = () => {
                 <span class="price green">25€</span>
               </div>
               <div class="ecom bg-green">
+                <p> - 2 coches de donador + 1 del concesionario <br/>- 125k IC <br/>- 1 deagle + 1 subfusil<br/> - Canal exclusivo en discord</p>
                 <a class="btn" href="#">Donar</a>
               </div>
             </div>
@@ -83,6 +88,7 @@ const Donaciones = () => {
                 <span class="price green">40€</span>
               </div>
               <div class="ecom bg-green">
+                <p>- 200k IC <br/>- Un coche personalizado de gta 5 mods <br/>- Tuneo gratis para ese mismo coche <br/>- 1 carabina  <br/>- Rango donador gema discord <br/>- Canal exclusivo en discord  <br/>- Preferencia en cola</p>
                 <a class="btn" href="#">Donar</a>
               </div>
             </div>
@@ -91,6 +97,7 @@ const Donaciones = () => {
             <div class="item">
               <img class="img-responsive" src={coche} alt="" />
               <div class="item-dtls">
+                <p>-Coche Exclusivo <br/>-Tuneo gratis</p>
                 <h4><a href="#">pack coche exclusivo gtav mods</a></h4>
                 <span class="price green">30€</span>
               </div>
@@ -107,6 +114,7 @@ const Donaciones = () => {
                 <span class="price green">25€</span>
               </div>
               <div class="ecom bg-green">
+                <p> Locales disponibles:<br/>  - Vanilla <br/>- Ammu-nation de ciudad (al lado de concesionario) <br/>- Ammu-nation del norte. <br/>- Bahamas <br/>- Tekila-la <br/>- Yellow J</p>
                 <a class="btn" href="#">Donar</a>
               </div>
             </div>

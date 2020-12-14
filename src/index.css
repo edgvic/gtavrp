@@ -166,7 +166,7 @@ nav {
   height: 40px;
 }
 .links a {
-  color: var(--clr-grey-3);
+  color: white;
   font-size: 1rem;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -224,7 +224,7 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: var(--clr-primary-5);
+    color: white;
     transition: var(--transition);
   }
   .social-icons a:hover {
@@ -238,7 +238,7 @@ nav {
 }
 
 .icono{
-  color: var(--clr-primary-5);
+  color: white;
   font-size: 150px;
   margin-bottom: 0px;
 }
