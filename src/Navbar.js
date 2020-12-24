@@ -32,7 +32,10 @@ const Navbar = () => {
                    <Link to="/normativa">Normativa</Link>
                   </li>
                   <li>
-                    <a href="https://invite.gg/envidiaosrp" target="_blank">discord</a>
+                    <a href="https://discord.gg/WxzCZvwZDd" target="_blank">discord</a>
+                  </li>
+                  <li>
+                    <a href="fivem://connect/8lavxv">Conectarse</a>
                   </li>
                 </ul>                
             </div>
@@ -40,7 +43,7 @@ const Navbar = () => {
 
       <ul className="social-icons">
         <li>
-          <a href="https://invite.gg/envidiaosrp">
+          <a href="https://discord.gg/WxzCZvwZDd">
             <FaDiscord />
           </a>
         </li>

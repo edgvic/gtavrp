@@ -1,20 +1,46 @@
 import React from 'react';
 import './donaciones.css';
-import coche from './shop/coche.png';
-import store from './shop/store.png';
 import mafia from './shop/mafia.png';
 import gold from './shop/gold.png';
 import silver from './shop/silver.png';
 import bronze from './shop/bronze.png';
 import diamond from './shop/diamond.png';
 import platinum from './shop/platinum.png';
+import galaxia from './shop/galaxia.png';
+import universo from './shop/universo.png';
+import exclusivo from './shop/exclusivo.png';
+import gta from './shop/gta.png';
 
 
 const Donaciones = () => {
     return (
 <div class="shop-items">
+      <div className="text-center text-dark">
+        <h3>¡ATENCIÓN!</h3>
+        <p className="text-dark"><b>Como hacer la donación:</b><br/>
+          - Poner tu usuario de discord: Usuario#1234<br/>
+          - Poner que pack quieres<br/>
+          - Poner tu nombre de steam: usuario1234<br/>
+          - Abrir un ticket en el discord para comentarnos y solicitar tus beneficios
+        </p>
+
+      </div>
       <div class="container-fluid">
         <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="item">
+              <img class="img-responsive" src={platinum} alt="" />
+              <div class="item-dtls">
+              <h4>pack donador cinc</h4>
+                <span class="price green">25€</span>
+              </div>
+              <div class="ecom bg-green">
+                <p> - 50K <br/>
+                    - Obtienes un vehículo de concesionario (Max.350K)</p>
+                <a class="btn" href="https://www.paypal.com/pools/c/8sU0k91DhY">Donar</a>
+              </div>
+            </div>
+          </div>
           <div class="col-md-3 col-sm-6">
            
             <div class="item">
@@ -29,9 +55,10 @@ const Donaciones = () => {
               </div>
              
               <div class="ecom bg-green">
-                <p>- 25k IC <br/>
-                  - Un coche del concesionario</p>
-                <a class="btn" href="#">Donar</a>
+                <p>- 150K <br/>
+                  - Una pistola normal (30K)<br/>
+                  - Obtienes un vehículo de concesionario ( Max.500K)</p>
+                <a class="btn" href="https://www.paypal.com/pools/c/8sU0k91DhY">Donar</a>
               </div>
             </div>
           </div>
@@ -47,8 +74,10 @@ const Donaciones = () => {
                 <span class="price green">15€</span>
               </div>
               <div class="ecom bg-green">
-                <p>- 50k IC <br/>- Un coche de donador <br/>- 1 deagle</p>
-              <a class="btn" href="#">Donar</a>
+                <p>- 200K <br/>
+                    - Un vehículo de donador<br/>
+                    - Una Pistola Pesada</p>
+              <a class="btn" href="https://www.paypal.com/pools/c/8sU0k91DhY">Donar</a>
               </div>
             </div>
           </div>
@@ -60,21 +89,10 @@ const Donaciones = () => {
                 <span class="price green">20€</span>
               </div>
               <div class="ecom bg-green">
-                <p>- 75k IC<br/> - Un coche de donador <br/>- Un tuneo para coche gratis<br/> - 1 smg</p>
-                <a class="btn" href="#">Donar</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="item">
-              <img class="img-responsive" src={platinum} alt="" />
-              <div class="item-dtls">
-              <h4>pack donador platino</h4>
-                <span class="price green">25€</span>
-              </div>
-              <div class="ecom bg-green">
-                <p> - 2 coches de donador + 1 del concesionario <br/>- 125k IC <br/>- 1 deagle + 1 subfusil<br/> - Canal exclusivo en discord</p>
-                <a class="btn" href="#">Donar</a>
+                <p>- 200K<br/>
+                    - 1 vehículo de donador<br/>
+                    - 1 vehículo de concesionario (Max.500K)</p>
+                <a class="btn" href="https://www.paypal.com/pools/c/8sU0k91DhY">Donar</a>
               </div>
             </div>
           </div>
@@ -84,38 +102,45 @@ const Donaciones = () => {
             <div class="item">
               <img class="img-responsive" src={diamond} alt="" />
               <div class="item-dtls">
-                <h4><a href="#">pack donador gema</a></h4>
-                <span class="price green">40€</span>
-              </div>
-              <div class="ecom bg-green">
-                <p>- 200k IC <br/>- Un coche personalizado de gta 5 mods <br/>- Tuneo gratis para ese mismo coche <br/>- 1 carabina  <br/>- Rango donador gema discord <br/>- Canal exclusivo en discord  <br/>- Preferencia en cola</p>
-                <a class="btn" href="#">Donar</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="item">
-              <img class="img-responsive" src={coche} alt="" />
-              <div class="item-dtls">
-                <p>-Coche Exclusivo <br/>-Tuneo gratis</p>
-                <h4><a href="#">pack coche exclusivo gtav mods</a></h4>
+                <h4>pack donador platino</h4>
                 <span class="price green">30€</span>
               </div>
               <div class="ecom bg-green">
-                <a class="btn" href="#">Donar</a>
+                <p>- 250K<br/>
+                  - 2 vehículos de donador<br/>
+                  - 2  pistola pesada</p>
+                <a class="btn" href="https://www.paypal.com/pools/c/8sU0k91DhY">Donar</a>
               </div>
             </div>
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="item">
-              <img class="img-responsive" src={store} alt="" />
+              <img class="img-responsive" src={gta} alt="" />
               <div class="item-dtls">
-                <h4><a href="#">Locales</a></h4>
-                <span class="price green">25€</span>
+                <h4>pack GTA</h4>
+                <span class="price green">40€</span>
               </div>
               <div class="ecom bg-green">
-                <p> Locales disponibles:<br/>  - Vanilla <br/>- Ammu-nation de ciudad (al lado de concesionario) <br/>- Ammu-nation del norte. <br/>- Bahamas <br/>- Tekila-la <br/>- Yellow J</p>
-                <a class="btn" href="#">Donar</a>
+                <p>- 250K<br/>
+                  - 1 coche exclusivo de GTAV MODS<br/>
+                  - 1 SMG</p>
+                <a class="btn" href="https://www.paypal.com/pools/c/8sU0k91DhY">Donar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="item">
+              <img class="img-responsive" src={exclusivo} alt="" />
+              <div class="item-dtls">
+                <h4>pack exclusivo</h4>
+                <span class="price green">70€</span>
+              </div>
+              <div class="ecom bg-green">
+                <p> - 350K<br/>
+                  - 1 coche de concesionario ( Max.500K)<br/>
+                  - 2 coche exclusivo de GTA V MODS <br/>
+                  - 2 SMG y una Pistola Pesada</p>
+                <a class="btn" href="https://www.paypal.com/pools/c/8sU0k91DhY">Donar</a>
               </div>
             </div>
           </div>
@@ -123,11 +148,56 @@ const Donaciones = () => {
             <div class="item">
               <img class="img-responsive" src={mafia} alt="" />
               <div class="item-dtls">
-                <h4><a href="#">pack mafia</a></h4>
-                <span class="price green">30€</span>
+                <h4>pack mafia</h4>
+                <span class="price green">40€</span>
               </div>
               <div class="ecom bg-green">
-                <a class="btn" href="#">Donar</a>
+                <a class="btn" href="https://www.paypal.com/pools/c/8sU0k91DhY">Donar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-md-3 col-sm-6">
+            <div class="item">
+              <img class="img-responsive" src={galaxia} alt="" />
+              <div class="item-dtls">
+              <h4>pack donador galaxia</h4>
+                <span class="price green">100€</span>
+              </div>
+              <div class="ecom bg-green">
+                <p>- 500K<br/>
+                  - 2 coches de concesionario (Max.500K)<br/>
+                  - 3 coches de GTA V MODS<br/>
+                  - 3 SMG Y 3 AKA<br/>
+                  - 1 Sniper Pesado<br/>
+                  - Preferencia en cola.<br/>
+                  - Canal exclusivo en Discord</p>
+                <a class="btn" href="https://www.paypal.com/pools/c/8sU0k91DhY">Donar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+           
+            <div class="item">
+             
+              <img class="img-responsive" src={universo} alt="" />
+            
+              <div class="item-dtls">
+               
+                <h4>Pack donador universo</h4>
+              
+                <span class="price green">150€</span>
+              </div>
+             
+              <div class="ecom bg-green">
+                <p>- 1M<br/>
+                  - 5 coches de GTA V MODS<br/>
+                  - 5 SMG Y 5 AKA<br/>
+                  - 2 Sniper Pesado<br/>
+                  - Preferencia en cola.<br/>
+                  - Canal exclusivo en Discord</p>
+                <a class="btn" href="https://www.paypal.com/pools/c/8sU0k91DhY">Donar</a>
               </div>
             </div>
           </div>
