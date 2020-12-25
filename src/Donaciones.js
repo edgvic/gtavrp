@@ -186,7 +186,7 @@ const Donaciones = () => {
             
               <div class="item-dtls">
                
-                <h4>Pack donador universo</h4>
+                <h4>Pack universo</h4>
               
                 <span class="price green">150€</span>
               </div>
