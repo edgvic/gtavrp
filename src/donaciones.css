@@ -239,7 +239,7 @@
       transition: all 0.35s ease-in;
   }
   .shop-items .item:hover  .ecom { 
-      margin-top: -330px; 
+      margin-top: -270px; 
   }
   .shop-items .item  .ecom  a.btn{
       border:1px solid #fff;

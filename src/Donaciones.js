@@ -152,6 +152,7 @@ const Donaciones = () => {
                 <span class="price green">40€</span>
               </div>
               <div class="ecom bg-green">
+                <p>Informate en nuestro Discord.</p>
                 <a class="btn" href="https://www.paypal.com/pools/c/8sU0k91DhY">Donar</a>
               </div>
             </div>
